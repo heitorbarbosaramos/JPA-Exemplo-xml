@@ -6,7 +6,9 @@ entidades/Estado.java
  entidades.Estado
 entidades/Aluno.java
  entidades.Aluno
-Principal.java
- Principal
 AlgumasOperacoes/Inserts.java
  AlgumasOperacoes.Inserts
+AlgumasOperacoes/Atualizar.java
+ AlgumasOperacoes.Atualizar
+Principal.java
+ Principal
