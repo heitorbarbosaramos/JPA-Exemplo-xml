@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.heitor'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.12.Final'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
