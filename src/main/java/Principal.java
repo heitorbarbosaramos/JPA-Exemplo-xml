@@ -1,6 +1,7 @@
 import AlgumasOperacoes.Atualizar;
 import AlgumasOperacoes.BuscarNoBanco;
 import AlgumasOperacoes.Inserts;
+import AlgumasOperacoes.Remover;
 import configuracoes.BDConfig;
 import entidades.Aluno;
 import entidades.Estado;
@@ -22,6 +23,10 @@ public class Principal {
 
 //        Aluno insertAluno = new Aluno(null, "Pedrinho Fernando Paula", 22, estado);
 //        Inserts.insertAluno(insertAluno);
+
+        Aluno alunoRemove = BuscarNoBanco.findAluno(2);
+        Remover.removerAluno(alunoRemove);
+
 
 
 

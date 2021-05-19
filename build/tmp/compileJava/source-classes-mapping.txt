@@ -1,14 +1,16 @@
+AlgumasOperacoes/Atualizar.java
+ AlgumasOperacoes.Atualizar
 AlgumasOperacoes/BuscarNoBanco.java
  AlgumasOperacoes.BuscarNoBanco
+AlgumasOperacoes/Inserts.java
+ AlgumasOperacoes.Inserts
 configuracoes/BDConfig.java
  configuracoes.BDConfig
 entidades/Estado.java
  entidades.Estado
 entidades/Aluno.java
  entidades.Aluno
-AlgumasOperacoes/Inserts.java
- AlgumasOperacoes.Inserts
-AlgumasOperacoes/Atualizar.java
- AlgumasOperacoes.Atualizar
+AlgumasOperacoes/Remover.java
+ AlgumasOperacoes.Remover
 Principal.java
  Principal
