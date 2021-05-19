@@ -1,10 +1,12 @@
-Principal.java
- Principal
+AlgumasOperacoes/BuscarNoBanco.java
+ AlgumasOperacoes.BuscarNoBanco
 configuracoes/BDConfig.java
  configuracoes.BDConfig
 entidades/Estado.java
  entidades.Estado
 entidades/Aluno.java
  entidades.Aluno
-AlgumasOperacoes/BuscarNoBanco.java
- AlgumasOperacoes.BuscarNoBanco
+Principal.java
+ Principal
+AlgumasOperacoes/Inserts.java
+ AlgumasOperacoes.Inserts
