@@ -6,3 +6,5 @@ entidades/Estado.java
  entidades.Estado
 entidades/Aluno.java
  entidades.Aluno
+AlgumasOperacoes/BuscarNoBanco.java
+ AlgumasOperacoes.BuscarNoBanco

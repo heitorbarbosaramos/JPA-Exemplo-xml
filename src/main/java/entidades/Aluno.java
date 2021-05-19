@@ -14,7 +14,7 @@ public class Aluno {
     private String nome;
     private Integer idade;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Estado estado;
 
     public Aluno(){

@@ -14,7 +14,7 @@ public class BDConfig {
         // 1 - Passos iniciais para criar um gerenciador de entidades com o banco de dados especificado no arquivo "persistence.xml"
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("conexao");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
-        
+
         // 2.1 - Criar instancias para serem adicionadas no banco de dados
         Estado estado1 = new Estado(null, "AC", "Acre");
         Estado estado2 = new Estado(null, "AL", "Alagoas");

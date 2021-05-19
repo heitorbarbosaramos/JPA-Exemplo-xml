@@ -14,7 +14,7 @@ public class Estado implements Serializable {
     private String sigla;
     private String nomeEstado;
 
-    @OneToMany(mappedBy = "estado", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "estado")
     private List<Aluno> alunos = new ArrayList<>();
 
     public Estado(){
@@ -68,7 +68,7 @@ public class Estado implements Serializable {
         sb.append("id=").append(id);
         sb.append(", sigla='").append(sigla).append('\'');
         sb.append(", nomeEstado='").append(nomeEstado).append('\'');
-        sb.append(", alunos=").append(alunos);
+//        sb.append(", alunos=").append(alunos);
         sb.append('}');
         return sb.toString();
     }
