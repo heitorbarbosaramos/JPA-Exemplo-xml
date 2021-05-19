@@ -16,8 +16,9 @@ public class BuscarNoBanco {
 
         Estado estado = entityManager.find(Estado.class, id);
 
-        entityManagerFactory.close();
         entityManager.close();
+        entityManagerFactory.close();
+
 
         return estado;
     }
@@ -29,8 +30,9 @@ public class BuscarNoBanco {
 
         Aluno aluno = entityManager.find(Aluno.class, id);
 
-        entityManagerFactory.close();
         entityManager.close();
+        entityManagerFactory.close();
+
 
         return aluno;
 

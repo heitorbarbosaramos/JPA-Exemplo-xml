@@ -18,5 +18,8 @@ public class Inserts {
         entityManager.persist(aluno);
 
         entityManager.getTransaction().commit();
+
+        entityManager.close();
+        entityManagerFactory.close();
     }
 }
